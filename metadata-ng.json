@@ -16,8 +16,8 @@
 	},
 	"source" : {
 		"scmType" : "git",
-		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld",
-		"appPath" : ""
+		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld.git",
+		"appPath" : "app"
 	},
 	"docURL" : "/#starters/swift/index.html",
 	"extra" : {
