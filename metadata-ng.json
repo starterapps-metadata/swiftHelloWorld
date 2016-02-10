@@ -25,7 +25,7 @@
 			"es" : {
 				"name" : "Swift",
 				"description" : "Una aplicación sencilla escrita en Swift que podrá configurar y ejecutar rápidamente."
-			},
+			}
 		}
 	}
 }
