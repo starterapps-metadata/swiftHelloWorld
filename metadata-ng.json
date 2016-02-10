@@ -1,0 +1,31 @@
+{
+	"name" : "Swift",
+	"services" : [],
+	"type" : "web",
+	"version" : "0.0.1",
+	"description" : "A simple Swift application that will get you up and running quickly.",
+	"smallIcon" : "swift_24.png",
+	"icon" : "swift_32.png",
+	"largeIcon" : "swift_50.png",
+	"featuredIcon" : "swift_64.png",
+	"buildpack" : "swift_buildpack",
+	"system_tags" : ["ibm_community"],
+	"categories" : ["runtime"],
+	"metadata" : {
+		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
+	},
+	"source" : {
+		"scmType" : "git",
+		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld",
+		"appPath" : ""
+	},
+	"docURL" : "/#starters/swift/index.html",
+	"extra" : {
+		"i18n" : {
+			"es" : {
+				"name" : "Swift",
+				"description" : "Una aplicación sencilla escrita en Swift que podrá configurar y ejecutar rápidamente."
+			},
+		}
+	}
+}
