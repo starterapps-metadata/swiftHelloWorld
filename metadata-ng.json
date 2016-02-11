@@ -26,6 +26,10 @@
 				"name" : "Swift",
 				"description" : "Una aplicación sencilla escrita en Swift que podrá configurar y ejecutar rápidamente."
 			},
+			"zh" : {
+				"name" : "Swift",
+				"description" : "一個簡單的swift軟件讓你迅速上手，加速編程"
+			},
 		}
 	}
 }
