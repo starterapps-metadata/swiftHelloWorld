@@ -16,8 +16,8 @@
 	},
 	"source" : {
 		"scmType" : "git",
-		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld",
-		"appPath" : ""
+		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld.git",
+		"appPath" : "app"
 	},
 	"docURL" : "/#starters/swift/index.html",
 	"extra" : {
@@ -29,7 +29,7 @@
 			"zh" : {
 				"name" : "Swift",
 				"description" : "一個簡單的swift軟件讓你迅速上手，加速編程"
-			},
+      }
 		}
 	}
 }
