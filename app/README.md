@@ -148,14 +148,74 @@ Once the sample application is pushed to Bluemix, you can access it using its ro
 Hello from Swift on Linux!
 ```
 
-## Using the latest version of Swift on Bluemix
+## Using a different version of Swift on Bluemix
 If you look closely at the output above returned by the `cf push` command, you will notice that `DEVELOPMENT-SNAPSHOT-2016-02-03-a` was the Swift version used for compiling and running the sample app on Bluemix.  If you would like to use a different version of the Swift language on Bluemix, say `2.2-SNAPSHOT-2015-12-10-a`, you'd need to update the contents of the `.swift-version` file to:
 
 ```
 swift-2.2-SNAPSHOT-2015-12-10-a
 ```
 
-After updating the `.swift-version` file, you can run the `cf push` command one more time.  This should upload the application to Bluemix and use the `2.2-SNAPSHOT-2015-12-10-a` version of the Swift binaries for compiling and running the starter application.
+After updating the `.swift-version` file, you can run the `cf push` command one more time.  This should upload the application to Bluemix and use the `2.2-SNAPSHOT-2015-12-10-a` version of the Swift binaries for compiling and running the starter application as shown below:
+
+```
+Using manifest file /Users/olivieri/git/swift-helloworld/manifest.yml
+
+Updating app swift-helloworld in org ricardo.olivieri@us.ibm.com / space dev as ricardo.olivieri@us.ibm.com...
+OK
+
+Uploading swift-helloworld...
+Uploading app files from: /Users/olivieri/git/swift-helloworld
+Uploading 555.9K, 75 files
+Done uploading               
+OK
+
+Stopping app swift-helloworld in org ricardo.olivieri@us.ibm.com / space dev as ricardo.olivieri@us.ibm.com...
+OK
+
+Starting app swift-helloworld in org ricardo.olivieri@us.ibm.com / space dev as ricardo.olivieri@us.ibm.com...
+-----> Downloaded app package (256K)
+-----> Downloaded app buildpack cache (258M)
+-----> Buildpack version 1.0.3
+-----> Installing Swift 2.2-SNAPSHOT-2015-12-10-a
+       Downloaded Swift
+-----> Building Package
+       Compiling Swift Module 'Utils' (5 sources)
+       Linking Library:  .build/release/Utils.a
+       Compiling Swift Module 'Server' (1 sources)
+       Linking Executable:  .build/release/Server
+-----> Copying dynamic libraries
+-----> Copying binaries to 'bin'
+-----> Cleaning up build files
+
+-----> Uploading droplet (3.4M)
+
+0 of 1 instances running, 1 starting
+1 of 1 instances running
+
+App started
+
+
+OK
+
+App swift-helloworld was started using this command `Server -bind 0.0.0.0:$PORT`
+
+Showing health and status for app swift-helloworld in org ricardo.olivieri@us.ibm.com / space dev as ricardo.olivieri@us.ibm.com...
+OK
+
+requested state: started
+instances: 1/1
+usage: 128M x 1 instances
+urls: swift-helloworld.stage1.mybluemix.net
+last uploaded: Thu Feb 11 20:22:04 UTC 2016
+stack: cflinuxfs2
+buildpack: Swift
+
+     state     since                    cpu    memory         disk          details   
+#0   running   2016-02-11 02:25:52 PM   0.0%   4.9M of 128M   12.6M of 1G      
+Ricardos-MacBook-Pro:swift-helloworld olivieri$
+```
+
+For a complete list of the Swift versions supported by the Cloud Foundry Swift buildpack, see the buildpack's [manifest](https://github.com/cloudfoundry-community/swift-buildpack/blob/master/manifest.yml) file.
 
 ## What's next?
 Once a new official release of the Cloud Foundry Swift buildpack is available, we will also make it available on Bluemix.  Also, our team is currently working on a much more advanced version of this HTTP server that will be available soon.  We also plan to provide Swift packages that will allow developers communicate with middleware services such as CouchDB and Cloudant.  Stay tuned for updates!
