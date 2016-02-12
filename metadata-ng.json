@@ -33,6 +33,10 @@
 			"hu" : {
 				"name" : "Swift",
 				"description" : "Egy egyszerű Swift applikáció, amely könnyen és gyorsan elindítható."
+      },
+			"it" : {
+				"name" : "Swift",
+				"description" : "Un' applicazione semplice and veloce con Swift."
       }
 		}
 	}
