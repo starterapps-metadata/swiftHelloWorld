@@ -19,7 +19,7 @@
 		"url" : "https://github.com/starterapps-metadata/swiftHelloWorld.git",
 		"appPath" : "app"
 	},
-	"docURL" : "/#starters/swift/index.html",
+	"docURL" : "/#runtimes/swift/index.html",
 	"extra" : {
 		"i18n" : {
 			"es" : {
