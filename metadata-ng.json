@@ -16,7 +16,7 @@
 	},
 	"source" : {
 		"scmType" : "git",
-		"url" : "hhttps://github.com/IBM-Bluemix/swift-helloworld.git",
+		"url" : "https://github.com/IBM-Bluemix/swift-helloworld.git",
 		"appPath" : ""
 	},
 	"docURL" : "/#runtimes/swift/index.html",
