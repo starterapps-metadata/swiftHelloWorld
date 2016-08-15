@@ -1,0 +1,43 @@
+{
+	"name" : "Swift",
+	"services" : [],
+	"type" : "web",
+	"version" : "0.0.1",
+	"description" : "A Kitura based server application that you can use as a starting point to get your own Kitura application up and running quickly on Bluemix.",
+	"smallIcon" : "swift_24.png",
+	"icon" : "swift_32.png",
+	"largeIcon" : "swift_50.png",
+	"featuredIcon" : "swift_64.png",
+	"buildpack" : "swift_buildpack",
+	"system_tags" : ["ibm_beta","ibm_community"],
+	"categories" : ["runtime"],
+	"metadata" : {
+		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
+	},
+	"source" : {
+		"scmType" : "git",
+		"url" : "https://github.com/IBM-Swift/Kitura-Starter-Bluemix.git",
+		"appPath" : ""
+	},
+	"docURL" : "/#runtimes/swift/index.html",
+	"extra" : {
+		"i18n" : {
+			"es" : {
+				"name" : "Swift",
+				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente."
+			},
+			"zh" : {
+				"name" : "Swift",
+				"description" : "一個簡單的swift軟件讓你迅速上手，加速編程"
+      },
+			"hu" : {
+				"name" : "Swift",
+				"description" : "Egy egyszerű Swift applikáció, amely könnyen és gyorsan elindítható."
+      },
+			"it" : {
+				"name" : "Swift",
+				"description" : "Un' applicazione semplice and veloce con Swift."
+      }
+		}
+	}
+}
