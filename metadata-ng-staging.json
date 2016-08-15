@@ -24,7 +24,7 @@
 		"i18n" : {
 			"es" : {
 				"name" : "Swift",
-				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente."
+				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente en Bluemix."
 			},
 			"zh" : {
 				"name" : "Swift",
