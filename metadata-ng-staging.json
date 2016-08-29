@@ -9,7 +9,7 @@
 	"largeIcon" : "swift_50.png",
 	"featuredIcon" : "swift_64.png",
 	"buildpack" : "swift_buildpack",
-	"system_tags" : ["ibm_ga", "ibm"],
+	"system_tags" : ["ibm_created"],
 	"categories" : ["runtime"],
 	"metadata" : {
 		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
