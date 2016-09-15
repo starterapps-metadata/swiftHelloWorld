@@ -10,7 +10,6 @@
 	"icon" : "swift_32.png",
 	"largeIcon" : "swift_50.png",
 	"featuredIcon" : "swift_64.png",
-	"buildpack" : "swift_buildpack",
 	"system_tags" : ["ibm_created"],
 	"categories" : ["runtime"],
 	"metadata" : {
