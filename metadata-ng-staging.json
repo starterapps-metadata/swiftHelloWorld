@@ -26,19 +26,7 @@
 			"es" : {
 				"name" : "Swift",
 				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente en Bluemix."
-			},
-			"zh" : {
-				"name" : "Swift",
-				"description" : "一個簡單的swift軟件讓你迅速上手，加速編程"
-      },
-			"hu" : {
-				"name" : "Swift",
-				"description" : "Egy egyszerű Swift applikáció, amely könnyen és gyorsan elindítható."
-      },
-			"it" : {
-				"name" : "Swift",
-				"description" : "Un' applicazione semplice and veloce con Swift."
-      }
+			}
 		}
 	}
 }
