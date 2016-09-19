@@ -3,7 +3,7 @@
 	"services" : [],
 	"type" : "web",
 	"version" : "1.0.0",
-	"buildpack" : "https://github.com/IBM-Swift/swift-buildpack#develop",
+	"buildpack" : "swift_buildpack",
 	"defaultMemory": 256,
 	"description" : "A Kitura based server application that you can use as a starting point to get your own Kitura application up and running quickly on Bluemix.",
 	"smallIcon" : "swift_24.png",
