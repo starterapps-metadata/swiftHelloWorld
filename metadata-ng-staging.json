@@ -23,6 +23,10 @@
 	"docURL" : "/#runtimes/swift/index.html",
 	"extra" : {
 		"i18n" : {
+			"de" : {
+				"name" : "Swift",
+				"description" : "Eine Kitura-basierte Serveranwendung, die Sie als Ausgangspunkt für eine rasche Betriebsbereitschaft Ihrer eigenen Kitura-Anwendung in Bluemix verwenden können."
+			},
 			"es" : {
 				"name" : "Swift",
 				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente en Bluemix."
