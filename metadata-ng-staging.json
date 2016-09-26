@@ -30,6 +30,34 @@
 			"es" : {
 				"name" : "Swift",
 				"description" : "Una aplicación sencilla escrita en Swift, que utiliza la infraestructura digital de Kitura, la cual podrá configurar y ejecutar rápidamente en Bluemix."
+			},
+			"fr" : {
+				"name" : "Swift",
+				"description" : "Application reposant sur Kitura, que vous pouvez utiliser comme point de départ pour rendre votre propre application Kitura opérationnelle rapidement dans Bluemix."
+			},
+			"it" : {
+				"name" : "Swift",
+				"description" : "Un'applicazione server basata su Kitura che puoi utilizzare come punto di partenza per rendere operativa velocemente la tua propria applicazione Kitura su Bluemix."
+			},
+			"ja" : {
+				"name" : "Swift",
+				"description" : "自分の Kitura アプリケーションを Bluemix 上で素早く稼働させるための開始点として使用できる、Kitura ベースのサーバー・アプリケーション。"
+			},
+			"ko" : {
+				"name" : "Swift",
+				"description" : "Bluemix에서 고유 Kitura 애플리케이션을 신속하게 시작하여 실행하기 위한 시작점으로 사용할 수 있는 Kitura 기반 서버 애플리케이션입니다."
+			},
+			"pt-br" : {
+				"name" : "Swift",
+				"description" : "Um aplicativo servidor baseado no Kitura que pode ser usado como ponto de início para deixar seu próprio aplicativo Kitura funcionando rapidamente no Bluemix."
+			},
+			"zh-cn" : {
+				"name" : "Swift",
+				"description" : "一种基于 Kitura 的服务器应用程序，可用作起点在 Bluemix 上快速入门和熟悉运用自己的 Kitura 应用程序。"
+			},
+			"zh-tw" : {
+				"name" : "Swift",
+				"description" : "以 Kitura 為基礎的伺服器應用程式，您可以用來作為起點，在 Bluemix 上快速開始執行您自己的 Kitura 應用程式。"
 			}
 		}
 	}
