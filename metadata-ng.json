@@ -13,8 +13,7 @@
 	"system_tags" : ["ibm_created"],
 	"categories" : ["runtime"],
 	"metadata" : {
-		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01",
-		"bssRuntimeName" : "swift_buildpack"
+		"termsUrl" : "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6626-01"
 	},
 	"source" : {
 		"scmType" : "git",
