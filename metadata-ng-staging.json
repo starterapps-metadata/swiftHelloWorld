@@ -17,7 +17,7 @@
 	},
 	"source" : {
 		"scmType" : "git",
-		"url" : "https://github.com/IBM-Swift/Kitura-Starter-Bluemix.git",
+		"url" : "https://github.com/IBM-Bluemix/Kitura-Starter.git",
 		"appPath" : ""
 	},
 	"docURL" : "/#runtimes/swift/index.html",
